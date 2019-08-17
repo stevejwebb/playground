@@ -4,8 +4,9 @@
 using namespace std;
 
 int main(int argc, char* argv[]){
-    array<int, 4> arr {1,2,3,4};
-    for (int output : arr)
+    array<string, 4> arr {"steve","eve","chloe","reg"};
+    cout << arr.size() << endl;
+    for (string output : arr)
     {
         cout << output << endl;
     }
